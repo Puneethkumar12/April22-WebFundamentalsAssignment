@@ -1,0 +1,301 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* navbar section */
+.navbar {
+    position: fixed;
+    top: 0%;
+    background-color: #fff;
+    width: 100%;
+    box-shadow: 0px 0px 8px rgb(0 0 0 /6%);
+}
+
+ul {
+    list-style-type: none;
+
+    font-weight: bold;
+    margin-top: 0%;
+}
+
+li {
+    float: left;
+
+}
+
+li a {
+    display: block;
+    padding: 25px;
+    background-color: #fff;
+    text-decoration: none;
+    color: #000;
+
+}
+
+li :hover {
+    color: #ff4f5a;
+}
+
+
+/* banner section */
+.container {
+    width: 100%;
+    margin: 2% 0%;
+    padding: 6% 0% 3%;
+}
+
+.banner {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    background-color: #fbfbfb;
+
+}
+
+.banner .image img {
+    width: 75%;
+    margin-left: 50px;
+}
+
+.banner .content {
+
+    padding: 10% 5%;
+
+}
+
+.banner .content .title {
+    font-size: 50px;
+}
+
+.banner .content .title span {
+    font-weight: 800;
+    color: #ff4f5a;
+}
+
+.banner .content .desc {
+    font-size: 1rem;
+
+}
+
+.banner .content .btn {
+    background-color: #ff4f5a;
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 2% 5%;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+
+    margin: 50px 0;
+}
+
+.banner .content .btn:hover {
+    background-color: #fbfbfb;
+    border: 2px solid black;
+    transition: 0.2s;
+
+}
+
+
+
+/* about me section */
+.about {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+}
+
+.about .image img {
+    width: 80%;
+}
+
+.img:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.about .content {
+
+    padding: 20% 13%;
+}
+
+.about .content .title {
+    font-size: 28px;
+    font-weight: 700;
+    color: #ff4f5a;
+}
+
+.about .content .title:hover {
+    font-size: 28px;
+    font-weight: 700;
+    color: #000;
+    display: inline;
+
+}
+
+.about .content .desc {
+    font-size: 19px;
+}
+
+/* skills section */
+.skills {
+
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    height: 20%;
+    margin-left: 100px;
+}
+
+.sk {
+    color: #ff4f5a;
+    display: inline;
+}
+
+.sk:hover {
+    color: #000;
+
+}
+
+.skills .skills-img {
+    width: 80%;
+    padding-left: 30px;
+
+}
+
+.skills-img:hover {
+    transform: scale(1.1);
+}
+
+.skills .prof {
+    display: flex;
+    flex-direction: column;
+    margin-top: -500px;
+
+
+}
+
+.skills .card {
+    display: grid;
+    grid-template-rows: repeat(4, 25%);
+    width: 70%;
+    margin-top: 50px;
+}
+
+.skills .card .card-js,
+.card-react,
+.card-springboot,
+.card-nodejs {
+    padding: 20px;
+    border: 1px solid black;
+    margin: 8px;
+    margin-left: 10px;
+    border-bottom: 5px solid #ff4f5a;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.fab {
+    color: #ff4f5a;
+    font-weight: bold;
+    font-size: 25px;
+    margin-right: 10px;
+
+}
+
+.skills .card .percent {
+    float: right;
+}
+
+/* work styling */
+.works {
+    margin-left: 100px;
+    color: #ff4f5a;
+    margin-top: 6%;
+}
+
+.works:hover {
+    color: #000;
+}
+
+.work .work-img {
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+
+}
+
+.work .work-img .work-img1,
+.work-img2,
+.work-img3 {
+    margin: 50px;
+    border: 1px solid black;
+
+}
+
+.imgg {
+    margin-top: -125px;
+}
+
+/* form styling */
+.f {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.f .contact {
+    color: #ff4f5a;
+    padding: 20px;
+}
+
+.f .contact:hover {
+    color: #000;
+}
+
+.f #email,
+#message,
+#number {
+    border: 3px solid #ff4f5a;
+    width: 200px;
+}
+
+.f .btn {
+    background-color: #ff4f5a;
+    color: #000;
+    width: 90px;
+    height: 40px;
+    font-size: 16px;
+    font-weight: 500px;
+    padding: 9px;
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+}
+
+.f .btn:hover {
+    background-color: #fbfbfb;
+    border: 2px solid black;
+
+}
+
+/* footer styling */
+.footer {
+    background-color: #000;
+    color: #ff4f5a;
+    text-align: center;
+    padding: 6% 0%;
+    margin: 6% 0 0;
+}
+
+.footer .footer-icons {
+    display: flex;
+    justify-content: center;
+    padding: 0.5%;
+
+}
+
+.footer .footer-icons .icon-foot {
+    margin: 1%;
+}
