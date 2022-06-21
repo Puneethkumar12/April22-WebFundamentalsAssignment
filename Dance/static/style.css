@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Lacquer&family=Lato&family=Noto+Serif+Kannada:wght@100&family=Palette+Mosaic&family=Playfair+Display:ital@1&family=Poppins:wght@300;400;500;600;700;800;900&family=Quicksand&family=Roboto+Mono:ital,wght@0,600;0,700;1,600;1,700&family=Roboto:wght@300&family=Shadows+Into+Light&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lacquer', cursive;
+}
+
+/* --------------------Navbar styling -------------------- */
+
+
+#navbar {
+
+    background-color: #000000;
+    padding: 20px 10px;
+
+}
+
+#navbar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+    margin-right: 90px;
+}
+
+#logo {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: white;
+    font-size: 28px;
+
+
+}
+
+.pda {
+    margin-right: 500px;
+}
+
+ul #logo img {
+    color: white;
+    width: 120px;
+    height: 42px;
+    filter: invert(1);
+
+
+}
+
+#navbar ul li {
+    list-style: none;
+}
+
+#navbar li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    padding: 8px 14px;
+    font-family: 'Lacquer', cursive;
+}
+
+#navbar li a:hover {
+    border-bottom: 5px dotted white;
+}
+
+/* -------------------Intro section styling --------- */
+#container {
+    background: center / cover no-repeat url("/static/bg1.jpg");
+
+}
+
+#introsection {
+    height: 400px;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgba(0, 0, 0, 0.7);
+    padding-bottom: 50px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 4rem;
+    animation: animate 3s forwards ease-in-out;
+    position: relative;
+
+}
+
+.wl:hover {
+    border-bottom: 7px dotted white;
+
+
+}
+
+
+
+.es {
+    font-size: 2.5rem;
+
+}
+
+@keyframes animate {
+    0% {
+        bottom: 600px;
+    }
+
+    50% {
+        bottom: 00px;
+    }
+
+    75% {
+        bottom: 0px;
+    }
+
+    100% {
+        bottom: 0px;
+    }
+}
+
+
+/*-------------------------Mission section------------------------------*/
+#missionsection {
+    height: 400px;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+#missionsection h3 {
+    text-align: center;
+    padding: 50px;
+
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+.card {
+    border: 2px solid white;
+    border-radius: 30px;
+    width: 30%;
+    margin: 23px 20px;
+    height: 210px;
+    display: inline-block;
+    background-color: #272720;
+
+}
+
+.card h4 {
+    text-align: center;
+    padding: 20px;
+}
+
+
+
+.card-box {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-content {
+
+    text-align: center;
+}
+
+.card-img img {
+    height: 120px;
+    padding: 0;
+    width: 90px;
+    filter: invert(1);
+    margin: ;
+
+
+}
+
+/* ------------------------SponserSection styling----------  */
+#sponserssection {
+    height: 400px;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+#sponserssection h3 {
+    text-align: center;
+    padding-top: 118px;
+
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+#sponsors {
+    height: 120px;
+    max-width: 1000px;
+    margin: 30px auto;
+    border-radius: 50%;
+}
+
+.sp-img {
+    padding: 50px;
+    height: 70%;
+
+
+
+}
+
+
+
+/* -----------------------Footer section styling---------------  */
+#footer {
+    height: 30px;
+    background-color: #9a9368;
+    padding-top: 20px;
+    color: #000000;
+    text-align: center;
+}

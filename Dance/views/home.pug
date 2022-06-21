@@ -1,0 +1,61 @@
+extends base.pug
+
+block scripts 
+    script(src='/static/index.js')
+
+block style
+    style
+      include ../static/style.css
+
+block content
+    
+
+    div#container   
+      section#introsection 
+        .wl  Welcome to Puneeth's dance Academy 
+        .es  Eat => sleep =>  dance =>  repeat    
+      
+    #container-2  
+      section#missionsection 
+        h3 Our Mission
+        .card 
+          h4.h4  Let's dance
+          .card-box 
+            .card-img 
+              img(src='/static/dance1.png')
+
+            .card-content 
+                p Dancing makes me feel happy and relaxed.
+        .card 
+          h4.h4   dance perfection
+          .card-box 
+            .card-img 
+              img(src='/static/dance2.png')
+
+            .card-content 
+                p Dancing makes me feel happy and relaxed.
+        .card 
+          h4.h4   dance the way you like
+          .card-box 
+            .card-img 
+              img(src='/static/dance3.png')
+
+            .card-content 
+                p Dancing makes me feel happy and relaxed.
+    
+    
+    #container-3  
+      section#sponserssection 
+        h3 Our sponsors 
+        div#sponsors
+          img(src='/static/spapple.png',alt="sponsor image" class='sp-img')
+          img(src='/static/spface.png',alt="sponsor image" class='sp-img')
+          img(src='/static/spgit.png',alt="sponsor image" class='sp-img')
+          img(src='/static/spmicro.png',alt="sponsor image" class='sp-img')
+          img(src='/static/sptw.png',alt="sponsor image" class='sp-img')
+   
+
+
+block foot 
+    footer#footer
+        | Copyright © 2022 PUNEETHKUMAR ALL RIGHTS RESERVED 

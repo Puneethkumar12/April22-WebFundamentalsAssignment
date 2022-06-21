@@ -1,0 +1,21 @@
+//- layout.pug
+doctype html
+html
+  head
+    title Puneeth
+    block scripts
+    block style
+  body
+    nav#navbar.top.fat 
+        ul
+          #logo 
+            img(src='/static/logo.png')
+            .pda PdA
+            li #[a(href = "/") HOME] 
+            li #[a(href = "/") ABOUT] 
+            li #[a(href = "/") SERVICES]
+            li #[a(href = "/") CLASS INFO]
+            li #[a(href = "/contact") CONTACT US]
+  body
+    block content
+    block foot
